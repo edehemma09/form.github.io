@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloraret</title>
+    <link rel="stylesheet" href="../style/style.css" type="text/css" alt="image">
+    <link rel="icon" href="../img/iconhead.png" type="svg/css" alt="image">
+</head>
+<body>
+    <img id="logo" src="../img/Headlogo.png">
+       <div class="form_div">
+        <p class="form_label">SIGNUP FORM</p>
+        <form method="post" action="../index.html">
+        <p><input id="signupfname" type="text" placeholder="Enter Name" required></p>
+        <p><input id="signupemail"type="text" placeholder="Enter Email"required></p>
+        <p><input id="signuppassword"type="password" placeholder="**********"required></p>
+        <label for ="gender">Gender:</label>
+        <input id="male" type="radio" name="gender" ><label for="Male">Male</label>
+         <input id="Female" type="radio" name="gender" ><label for="Female">Female
+        </label>
+<br>
+<br>
+ <label>
+     Address: <input id="addr" type="text" name="Address" placeholder="address" value="" required>
+ </label>
+ <br>
+ <br>
+ <label>
+     Email:<input id="email" type="email" name="email" value="" placeholder="email" required>
+ </label>
+<br>
+<br>
+<label>
+    Username:<input id="uname" type="text" name="Username" value="" placeholder="Username" required>
+</label> <br>
+<br>
+<label>
+ Password:<input id="pwrd" type="password" name="password" value="" placeholder="Passowrd" required>
+</label>
+<br>
+<br>
+<label>
+ Confirm Passowrd: <input id="cpwrd" type="password" name="CPassword" value="" placeholder="Confirm password" required>
+</label>
+<br>
+<br>
+<label>City:
+<select id="Scity" name="City" title="Select City" required> 
+  <option>Select</option>
+ <option value="Enugu" id="OE">Enugu</option>
+ <option value="Owerri" id="OI">Owerri</option>
+ <option value="Umuahia" id="UA">Umuahia</option>
+ <option value="Abakaliki" id="AE">Abakaliki</option>
+ <option value="Awka" id="AA" >Awka</option>
+</select>
+</label>
+<br>
+<br>
+
+ Hobbies:
+ 
+ 
+     <input id="soccer" type="checkbox" name="Soccer">
+     <label for="Soccer">Soccer </label>
+     <input id="swimming" type="checkbox" name="swimming">
+     <label for="Swimming">Swimming</label>
+     
+<br>
+<br>
+<label for="About-you">Tell us About You:</label><br>
+<textarea rows="2" cols="30" name="About-you" placeholder="Briefly about you" id="txtarea" required></textarea>
+<br>
+<br>
+<label for="file">Identity Photo:</label>
+<input id="file-upload" type="file" name="file-upload"required >
+
+<p><input id="signupsubmit"type="submit" value="SIGNUP"></p>
+    </form>
+        </div>
+        
+</body>
+</html>
